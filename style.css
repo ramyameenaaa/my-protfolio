@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f0ff;
+    color: #333;
+}
+
+/* Navigation */
+header {
+    background: #6a4c93;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 28px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ffd6ff;
+}
+
+/* Home */
+.home {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.home-content {
+    max-width: 700px;
+}
+
+.welcome {
+    color: #6a4c93;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.home h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.home h2 span {
+    color: #6a4c93;
+}
+
+.home h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.home-content > p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    background: #6a4c93;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #4b326b;
+  }
